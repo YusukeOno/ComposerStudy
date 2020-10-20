@@ -1,0 +1,23 @@
+{
+    "name": "yusuke-ono/composer-study",
+    "type": "library",
+    "authors": [
+        {
+            "name": "小野裕輔",
+            "email": "y-ono@nswt.co.jp"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "monolog/monolog": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "psy/psysh": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "yusukeono\\composerstudy\\": "src/MyPackage/"
+        }
+    }
+}
